@@ -1,7 +1,7 @@
 {
-  "name": "library-node",
+  "name": "random-sports",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate random sports teams",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
