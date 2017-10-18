@@ -47,3 +47,5 @@ function generatePlayer() {
 
 buildTeams(10)
 //console.log(generateBusinessTeam())
+
+module.exports = buildTeams
