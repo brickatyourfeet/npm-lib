@@ -3,14 +3,6 @@ const _ = require('lodash')
 
 let sports = ['Baseball', 'Football', 'Soccer', 'Hockey', 'Cycling', 'Rowing', 'Skiing', 'BMX', 'Rollerblading', 'Volleyball', 'Bowling']
 
-
-// faker.address.city
-// faker.catchPhraseNoun
-
-//console.log(faker.company.catchPhraseNoun())
-console.log(faker.company.bsNoun())
-
-
 function generateBusinessTeam() {
 
   let team = {
@@ -45,7 +37,6 @@ function generatePlayer() {
 }
 
 
-buildTeams(10)
-//console.log(generateBusinessTeam())
-
-module.exports = buildTeams
+module.exports = {
+  buildTeams
+}
